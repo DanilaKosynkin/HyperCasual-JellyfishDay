@@ -3351,7 +3351,6 @@ MonoBehaviour:
   - {fileID: 351321823}
   - {fileID: 1676326355}
   - {fileID: 392607111}
-  _rerivalTimer: {fileID: 1684474540}
   _restart: {fileID: 1089059330}
   _recordText: {fileID: 608991061}
 --- !u!4 &1089059329
@@ -3645,7 +3644,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5480,6 +5479,7 @@ GameObject:
   - component: {fileID: 1676326359}
   - component: {fileID: 1676326358}
   - component: {fileID: 1676326357}
+  - component: {fileID: 1676326360}
   m_Layer: 0
   m_Name: RevivalCanvas
   m_TagString: Untagged
@@ -5569,6 +5569,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0
+--- !u!114 &1676326360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676326355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bced45a839dbf4f80c52ab2c6dd921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rerivalTimer: {fileID: 1684474540}
+  _gameUI: {fileID: 1089059328}
 --- !u!1 &1684474538
 GameObject:
   m_ObjectHideFlags: 0
