@@ -1,2 +1,1 @@
-# SquidDay
- game for Squid
+
